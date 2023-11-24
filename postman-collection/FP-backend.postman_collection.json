@@ -1,0 +1,117 @@
+{
+	"info": {
+		"_postman_id": "0fb404a9-40b4-4326-a82b-0d00424e1033",
+		"name": "FP-backend",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "31377658"
+	},
+	"item": [
+		{
+			"name": "updateApparel",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"code\": \"ABC123\",\r\n  \"size\": \"M\",\r\n  \"quantity\": 100,\r\n  \"price\": 100\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/updateApparel",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"updateApparel"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "checkFulfillment",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": " [\r\n     {\r\n        \"code\": \"ABC123\",        \r\n        \"size\": \"L\",\r\n        \"quantity\": 100\r\n    }\r\n ]",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/checkFulfillment",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"checkFulfillment"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "lowestCost",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/lowestCost",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"lowestCost"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "updateMultipleApparels",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "[\r\n    {\r\n        \"code\": \"ABC123\",\r\n        \"size\": \"M\",\r\n        \"quantity\": 200,\r\n        \"price\": 200\r\n    },\r\n    {\r\n        \"code\": \"ABC123\",\r\n        \"size\": \"L\",\r\n        \"quantity\": 100,\r\n        \"price\": 100\r\n    }\r\n]",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/updateMultipleApparels",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"updateMultipleApparels"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

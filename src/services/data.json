@@ -1,0 +1,36 @@
+[
+  {
+    "code": "ABC123",
+    "sizes": {
+      "S": {
+        "quantity": 10,
+        "price": 20
+      },
+      "M": {
+        "quantity": 200,
+        "price": 200
+      },
+      "L": {
+        "quantity": 100,
+        "price": 100
+      }
+    }
+  },
+  {
+    "code": "XYZ456",
+    "sizes": {
+      "S": {
+        "quantity": 12,
+        "price": 22
+      },
+      "M": {
+        "quantity": 18,
+        "price": 28
+      },
+      "L": {
+        "quantity": 10,
+        "price": 35
+      }
+    }
+  }
+]
