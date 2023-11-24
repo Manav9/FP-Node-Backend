@@ -4,7 +4,6 @@
   "description": "Vendor api for the nodeJs code challenge",
   "main": "index.js",
   "scripts": {
-    "start": "node dist/app.js",
     "dev": "nodemon src/app.ts",
     "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
